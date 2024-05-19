@@ -9,7 +9,6 @@ interface Props {
 }
 
 export const ProductSlideshow: FC<Props> = ({ images }) => {
-  console.log(images);
   return (
     <Slide easing="ease" duration={7000} indicators>
       {images.map((image) => {
